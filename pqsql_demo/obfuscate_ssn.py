@@ -8,3 +8,5 @@ field_name = 'acct_social'
 records = event.request.content
 
 print(records)
+
+print('TESTING')
