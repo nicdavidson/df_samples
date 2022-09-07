@@ -7,7 +7,6 @@ field_name = 'acct_social'
 
 records = event.request.content
 
-print(records)
 
 for record in records:
     print(record)
