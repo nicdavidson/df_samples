@@ -10,4 +10,4 @@ records = event.request.content
 
 for record in records:
     print(record)
-    print('\n\n')
+    print('\n...\n')
