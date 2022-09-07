@@ -5,10 +5,7 @@
 # field name as it appears in the database. 
 field_name = 'acct_social'
 
-records = event.request.content
+records = event.request.content['content']
 
 print(records)
 
-print('TESTING')
-
-print('not changing anything')
