@@ -5,7 +5,10 @@
 # field name as it appears in the database. 
 field_name = 'acct_social'
 
-records = event.request.content['content']
+records = event.request.content
 
 print(records)
 
+for record in records:
+    print(record)
+    print('\n\n')
