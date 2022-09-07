@@ -5,7 +5,7 @@
 # field name as it appears in the database. 
 field_name = 'acct_social'
 
-records = event.request.content
+records = event.response.content
 
 
 for record in records:
